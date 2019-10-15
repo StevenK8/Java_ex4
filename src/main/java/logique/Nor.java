@@ -11,8 +11,4 @@ public class Nor extends Logique{
         Q = !(inputA() || inputB());
         return Q;
     }
-
-    public static void main(String[] args) {
-        Nor nand = new Nor(true, false);
-    }
 }

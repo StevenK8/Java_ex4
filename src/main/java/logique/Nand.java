@@ -11,10 +11,4 @@ public class Nand extends Logique{
         Q = !(inputA() && inputB());
         return Q;
     }
-
-    
-    public static void main(String[] args) {
-        Nand nand = new Nand(true, false);
-    }
-
 }
